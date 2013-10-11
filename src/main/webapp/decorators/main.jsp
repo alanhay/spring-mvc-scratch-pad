@@ -15,15 +15,15 @@
 <base href="<%=basePath%>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link href="css/bootstrap-3.0.0/bootstrap.css" rel="stylesheet" media="screen" />
+<link href="css/bootstrap-3.0.0.css" rel="stylesheet" media="screen" />
 
 <link href="css/datepicker.css" rel="stylesheet" media="screen" />
 <link href="css/bootstrap-timepicker.min.css" rel="stylesheet"
 	media="screen" />
 <link href="css/styles.css" rel="stylesheet" media="screen" />
 
-<script src="js/jquery-1.8.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="scripts/jquery-1.8.3/jquery.js"></script>
+<script src="scripts/bootstrap-3.0.0/bootstrap.js"></script>
 <script src="js/bootstrap-datepicker.js"></script>
 <script src="js/bootstrap-timepicker.min.js"></script>
 <script src="js/jquery-displaytag-ajax-1.2.js"></script>
