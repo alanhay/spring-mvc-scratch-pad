@@ -1,12 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://www.opensymphony.com/sitemesh/decorator"
 	prefix="decorator"%>
-<%@ taglib prefix="sec"
-	uri="http://www.springframework.org/security/tags"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="t" tagdir="/WEB-INF/tags"%>
-
 <%
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://"
@@ -21,7 +15,8 @@
 <base href="<%=basePath%>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<link href="css/bootstrap-3.0.0/bootstrap.css" rel="stylesheet" media="screen" />
+
 <link href="css/datepicker.css" rel="stylesheet" media="screen" />
 <link href="css/bootstrap-timepicker.min.css" rel="stylesheet"
 	media="screen" />
@@ -39,8 +34,8 @@
 	<div class="container"
 		style="width: 1100px; padding-left: 10px; padding-right: 10px;">
 
-		<div class="well"
-			style="margin-top: 10px; background: #444; border: 1px solid #ddd; height: 20px;">
+		<div class="well" style="margin-top: 10px;
+			 background: #444; border: 1px solid #ddd; height: 60px;">
 			<h4 style="color: #ddd;">Spring MVC Bootstrap Scratchpad</h4>
 		</div>
 

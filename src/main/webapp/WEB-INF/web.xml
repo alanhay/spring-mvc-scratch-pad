@@ -21,7 +21,7 @@
 
 	<filter>
 		<filter-name>sitemesh</filter-name>
-		<filter-class>com.singlesport.web.filter.AjaxExcludingSiteMeshFilter</filter-class>
+		<filter-class>uk.co.certait.scratchpad.filter.AjaxExcludingSiteMeshFilter</filter-class>
 	</filter>
 
 	<filter-mapping>
@@ -31,9 +31,9 @@
 		<dispatcher>REQUEST</dispatcher>
 	</filter-mapping>
 
-	<listener>
+<!-- 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-	</listener>
+	</listener> -->
 
 	<security-constraint>
 		<web-resource-collection>
