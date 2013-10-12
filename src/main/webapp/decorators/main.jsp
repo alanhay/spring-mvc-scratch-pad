@@ -35,8 +35,8 @@
 		style="width: 1100px; padding-left: 10px; padding-right: 10px;">
 
 		<div class="well" style="margin-top: 10px;
-			 background: #444; border: 1px solid #ddd; height: 60px;">
-			<h4 style="color: #ddd;">Spring MVC Bootstrap Scratchpad</h4>
+			 background: #428bca; border: 1px solid #ddd; height: 60px;">
+			<h4 style="color: #fff;">Spring MVC Bootstrap Scratchpad</h4>
 		</div>
 
 		<div class="row-fluid">
